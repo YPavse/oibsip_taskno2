@@ -1,0 +1,299 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#navbar{
+    width: 100%;
+    height: 100vh;
+    background: url('Bg1..jpeg') no-repeat center center/ cover;
+    z-index: -1;
+   opacity: 1px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 38px ;
+    padding-left: 8% ;
+    padding-right: 6% ;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'Roboto Serif', serif;
+    font-weight: bold;
+}
+#navbar ul li a{
+    color:rgb(248, 248, 244) ;
+    display: block;
+    padding: 3px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: rgb(3, 3, 3);
+    background-color: rgb(235, 252, 2);
+}
+.Btn{
+    padding: 1px 3px ;
+    background:none;
+    border:2px solid #131313 ;
+    color:#030303 ;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.Btn:hover{
+    box-shadow: 0 0 0 5px #fff, 0 0 0 2px #f70303;
+    border: 2px solid #f10101dc;
+    transform: scale(0.9);
+    color: #f00a0a;
+}
+#logo{
+    color: rgb(247, 247, 242);
+    font-size: 40px;
+    font-weight: bold;
+    padding: 2px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Roboto Serif', serif;
+}
+span{
+    color: rgb(251, 255, 0);
+}
+#cont{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    right: 8%;  
+}
+#cont h1{
+    color:white;
+    margin: 2px 0px 4px;
+   font-size: 75px;
+   text-transform: capitalize;
+}
+#cont h3{
+   color: rgb(250, 250, 161);
+   font-size: 25px;
+   margin-bottom: 20px;
+   text-transform: capitalize;
+}
+#cont h4{
+    color: rgb(250, 250, 161);
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+ 
+.ABOUTUS{
+    width: 100%;
+    padding: 100px 0px;
+    background-color:rgb(25 22 22) ;
+}
+.ABOUTUS img{
+    height: auto;
+    width: 370px;
+}
+#about-content{
+    width: 500px;
+}
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1000px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+#about-content h2{
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+#about-content h4{
+    color:rgb(248, 248, 242) ;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+#about-content p{
+    color: aliceblue;
+    font-size: 19px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+#about-content p:hover{
+    color: yellow;
+    text-transform: capitalize;
+}
+.education{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 20px 0px;
+    background-color:rgb(25 22 22) 
+}
+#heading{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    letter-spacing: 3px;
+    min-height: 100px;
+} 
+#education{
+    display: flex;
+    margin: 34px;
+    
+}
+#education .minibox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid yellow;
+    padding: 35px;
+    margin: 3px 15px;
+    border-radius: 30px;
+    background: linear-gradient(to top, rgb(251, 255, 5) 50% , rgb(248, 246, 246) 50%);
+    background-size: 100% 200%;
+    transition:all 1s ;
+    cursor: pointer;
+}
+#education .minibox h2{
+    font-weight: bold;
+}
+#education .minibox p{
+    color: rgb(9, 10, 10);
+    text-transform: capitalize;
+}
+#education .minibox:hover{
+    background-position: left bottom;
+    color: rgb(7, 6, 6);
+    border: none;
+    box-shadow: 0 0 20px rgb(255, 255, 253); 
+}
+.service{ 
+    background-color:rgb(25 22 22) ;
+    width: 100%;
+    padding: 20px 0px;
+}
+#service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#service .minibox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid yellow;
+    padding: 35px;
+    margin: 3px 15px;
+    border-radius: 30px;
+    background: linear-gradient(to top, rgb(251, 255, 5) 50% , rgb(248, 246, 246) 50%);
+    background-size: 100% 200%;
+    transition:all 1s ;
+    cursor: pointer;
+    overflow: hidden;
+}
+#service .minibox h2{
+    font-weight: bold;
+}
+#service .minibox p{
+    text-transform: capitalize;
+}
+#service .minibox:hover{
+    background-position: left bottom;
+    color: rgb(7, 6, 6);
+    border: none;
+    box-shadow: 0 0 20px rgb(255, 255, 253); 
+}
+#skills-section{
+    height: 344px;
+    background-color:rgb(25 22 22) ;
+    width: 100%;
+    height: 100%;
+    padding: 90px  0px;
+}
+#skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills-item{
+    padding: 25px;
+}
+#skills img{
+    height: 80px;
+}
+#contact{ 
+    background-color:rgb(25 22 22) ;
+    width: 100%;
+    padding: 90px 0px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    color: white;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+.input{
+    padding: 8px;
+    margin: 11px;
+    width: 30%;
+    outline: none;
+    border-radius: 10px;
+    border:2px solid yellow ;
+}
+#msg{
+    width: 20%;
+    padding: 8px;
+    margin: 11px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    border:2px solid yellow ;
+}
+#send{
+   padding: 5px; 
+   width: 10%;
+   height: 10%;
+   margin: 25px;
+   border: none;
+   outline: none;
+}
+#send:hover{
+    box-shadow: 0 0 0 5px #fff, 0 0 0 2px #f70303;
+    border: 2px solid #f10101dc;
+    transform: scale(0.9);
+    color: #f00a0a;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
